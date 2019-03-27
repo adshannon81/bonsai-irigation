@@ -6,7 +6,7 @@
 
 #define PUMP        3 
 #define MOIST       A6        //analog pin for soil moisture
-#define MOISTPOWER  4
+#define MOISTPOWER  4         //only power the moisture reader when in use.
 #define BUTTON_PIN  2         //digital pin for button
 
 int   moisture  = 0;
