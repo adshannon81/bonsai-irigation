@@ -1,4 +1,9 @@
+/*
+This version has a critical level where watering happens immediately. (overkill?)
+Mositure is checked regularly and only waters if below a certain level.
+Button only works if below a certain level.
 
+*/
 
 //for LCD
 #include <Wire.h>
